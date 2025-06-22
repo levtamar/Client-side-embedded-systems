@@ -1,28 +1,3 @@
-// import { useEffect, useState } from 'react';
-
-// function App() {
-//   const [status, setStatus] = useState('מחכה לחיבור...');
-
-//   useEffect(() => {
-//     fetch('http://192.168.22.32/') // שנה את ה-IP לפי מה שה־ESP32 שלך מציג
-//       .then((res) => res.json())
-//       .then((data) => setStatus(data.status))
-//       .catch((err) => {
-//         console.error(err);
-//         setStatus('שגיאה בחיבור ל־ESP32');
-//       });
-//   }, []);
-
-//   return (
-//     <div style={{ padding: '20px' }}>
-//       <h1>חיבור ל־ESP32</h1>
-//       <p>סטטוס: {status}</p>
-//     </div>
-//   );
-// }
-
-// export default App;
-
 
 
 import { useEffect, useState } from 'react';
