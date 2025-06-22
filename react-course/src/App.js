@@ -34,7 +34,7 @@ function App() {
 
   return (
     <div style={{ padding: '20px', textAlign: 'center' }}>
-      <h1>שלט למכסחת דשא</h1>
+      <h1> מכונית על שלט  </h1>
       <p>🔌 סטטוס חיבור: {status}</p>
 
       <div style={{ margin: '20px 0' }}>
